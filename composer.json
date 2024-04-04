@@ -1,0 +1,15 @@
+{
+    "name": "vincent/projet-site-jcp-vacances",
+    "authors": [
+        {
+            "name": "Vincent-Gillet",
+            "email": "vincent.gillet.vg@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "classes/"
+        }
+    }
+}

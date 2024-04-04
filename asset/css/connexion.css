@@ -1,0 +1,78 @@
+header a {
+    color: #012E4D;
+
+}
+
+.logo {
+    fill: black;
+}
+
+#backgroundConnexion {
+background-image: url('/asset/images/fondsite.png');
+background-repeat: no-repeat;
+background-position:top;
+height: 100vh;
+}
+
+#divConnexion {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 600px;
+}
+
+#boxDestination h2 {
+position: relative;
+top: 30px;
+}
+
+#boxDestination {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 500px;
+}
+
+
+#formulaireConnexion {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 100%;
+height: 100%;
+row-gap: 16px;
+
+}
+
+.champConnexion {
+display: flex;
+justify-content: center;
+align-items:start;
+flex-direction: column;
+width: 350px;
+row-gap: 16px;
+}
+
+.champConnexion input {
+width: 350px;
+border: 1px #E2E8F0 solid;
+background-color: white;
+height: 50px;
+border-radius: 12px;
+}
+
+#submit {
+background-color: #16526F; 
+color:white; 
+border: 1px solid #16526F;
+width:350px;
+height:50px;
+border-radius:12px;
+}
+
+#submit:hover {
+background-color: white ;
+color: #16526F ;
+}
